@@ -1,0 +1,1 @@
+# This is the code for simple Insert of Nodes in the Linked List.
