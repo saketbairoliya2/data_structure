@@ -1,0 +1,31 @@
+#################
+Python as a Object Oriented Langauge
+#################
+1. Encapulations: The basic idea is to have control over the data accessed outside the classes and functions, and generally access specifiers are used in 
+Langauges like Java and c++ but here in python we don't follow such convention. It says that ""We are all consenting adults". But to follow convention, we 
+use _ for protected and __ for private access specifiers.
+
+
+2. Polymorphims: When A given method or class is used in different multiple places(i.e. existing in multiple forms) then it is refered to as Polymorphism. 
+ Here Method Overloading and over writing can be infered as Polymorphism.
+
+3. Inheritance: The idea is to keep the code DRY(Do not repeat Yourself), We can Inherit the parent class to the sub class.
+
+4. Data Abstractions: We Can have abstract classes with the "pass" keys 
+
+5. Access Specifiers: We don't have access Specifiers in Python. Refer point 1 as mentioned above.
+
+6. Switch Cases: In python, there is no key names "switch", i.e. We don't have switch cases supported in python, unlike in Java. Insted we mimik the situation 
+using dict.
+
+7. Error Handeling: Like other OOP based langauges, it handles Exceptions. It uses 'try' and 'except' key word for catching the errors. 
+We need to import the classes before we can catch Exceptions. We can use (except Exception as e:) in case we want to catch the stack of the error.
+
+8. Method Overloading: The methods defined in the python can be overloaded with one or more extra parameters depending on the need, Only thing important while 
+defining the function, definie the variable as None . Ex: say_hello(self, name=None, age= None), Here while calling the function, say_hello(), we can call it without any 
+paramets or even pass one/two params here.
+
+9. Duck Typing: In all dynamically typed langauge, we have duck typing. (What??) Well, duck typing says that the type of an object will be known during the
+run time. (A duck quacks and the one who is not one, doesn't :p). 
+consider 3 + 3, it uses int.__add__(3, 3).
+For 3.3 + 3, it uses float.__add__(3.3, 3).
