@@ -6,7 +6,7 @@ class Node:
         self.data = data
         self.next = None
         
-# Linked List Clas containing Node inside.
+# Linked List Class containing Node inside.
 class LinkedList:
     def __init__(self):
         self.head = None
