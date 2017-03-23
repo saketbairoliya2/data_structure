@@ -1,5 +1,5 @@
 #################
-Python as a Object Oriented Langauge
+Python as an Object Oriented Langauge
 #################
 1. Encapulations: The basic idea is to have control over the data accessed outside the classes and functions, and generally access specifiers are used in 
 Langauges like Java and c++ but here in python we don't follow such convention. It says that ""We are all consenting adults". But to follow convention, we 
