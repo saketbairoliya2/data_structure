@@ -1,6 +1,6 @@
 #Insertion Sort
 def insertion_sort(arr, l):
-	for i in range(0, l):
+	for i in range(1, l):
 		key = arr[i]
 		j = i-1
 
@@ -8,7 +8,7 @@ def insertion_sort(arr, l):
 			arr[j+1], arr[j] = arr[j], arr[j+1]
 			j -= 1
 		arr[j+1] = key
-	return arr 
+	return arr
 
 
 if __name__ == '__main__':

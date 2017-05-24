@@ -51,7 +51,7 @@ def merge_sort(arr, low, high):
 	return arr
 
 if __name__ == '__main__':
-	arr = [12, 11, 13, 5, 6, 7]
+	arr = [12, 11, 13, 5, ,6 7]
 	size = len(arr)
 	low = 0
 	high = size-1
