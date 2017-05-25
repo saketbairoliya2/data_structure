@@ -1,0 +1,17 @@
+Q) Why Linked_list is used?
+-> Because it is easy to Insert or delete Data in Linked_list(as compared to Array)- Operation takes O(1) times. 
+
+Q) What aabout spaces?
+-> Ohh yes, It takes more space as comepared to Array. Twice, to be precised. 
+
+Q) Does serach takes more time in LinkedList?
+-> yes, they do. Specially because there is no index like thing here so we have to parse through to get the desired element. It is O(n) time in worst cases.
+
+Q) Where should we use Linked List?
+-> It should Preferebly be used as and when there are lot of insertion or Deletion of elements in middle or end of the data Sequence. 
+
+Q) How does the last point help!!
+-> This was we'll save the Operation cost of arrangying data(In case of Array)
+
+Q) What are other linear type of data structures other then Linked_List?
+-> Array, Stack, Queue, Hashes
