@@ -9,11 +9,7 @@ class Graph:
         self.graph = g
  
     def is_safe(self, i, j, visited):
-        '''
-        row number is in range, column number
-        is in range and value is 1 
-        and not yet visited
-        '''
+        # Returns True/False
         return (i >= 0 and i < self.row and
                 j >= 0 and j < self.col and
                 not visited[i][j] and self.graph[i][j])
@@ -22,9 +18,7 @@ class Graph:
     
     def DFS(self, i, j, visited, count):
         '''
-        A utility function to do DFS for a 2D 
-        boolean matrix. It only considers
-        the 8 neighbours as adjacent vertices
+        A utility function to do DFS for a 2D mmatrix
         '''
         row_num = [-1, -1, -1,  0, 0,  1, 1, 1];
         col_num = [-1,  0,  1, -1, 1, -1, 0, 1];
