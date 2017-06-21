@@ -1,6 +1,7 @@
 # Code for dfs.
 
 from collections import defaultdict
+from pprint import pprint
 
 class Graph:
     
@@ -17,7 +18,7 @@ class Graph:
         
         # Mark the current node as visited node and print it.
         visited[src] = True
-        print src
+        print (src)
         
         # Loop over all the adjecent nodes and call function recursively
         for i in self.graph[src]:
@@ -42,6 +43,8 @@ if __name__ == '__main__':
     g.add_edge(2, 0)
     g.add_edge(2, 3)
     g.add_edge(3, 3)
+
+    pprint(g.graph)
     
     #Do dfs and print elements
     g.dfs(2)
