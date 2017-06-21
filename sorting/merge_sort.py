@@ -44,14 +44,16 @@ def merge(arr, low, m, high):
 def merge_sort(arr, low, high):
 
 	if low < high:
-		m = low +(high-low)/2
+		#m = (high - low)/2
+		m = int((low + (high-1))/2)
+		print ("m - {}" .format(m))
 		merge_sort(arr, low, m)
 		merge_sort(arr, m+1, high)
 		merge(arr, low, m, high)
 	return arr
 
 if __name__ == '__main__':
-	arr = [12, 11, 13, 5, ,6 7]
+	arr = [12, 11, 13, 5, 4, 6, 7] # Size = 7
 	size = len(arr)
 	low = 0
 	high = size-1
